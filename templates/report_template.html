@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .log-entry { margin-bottom: 10px; padding: 10px; border-bottom: 1px solid #ccc; }
+        .INFO { color: green; }
+        .ERROR { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Log Report</h1>
+    {% for log in logs %}
+    <div class="log-entry {{ log.level }}">
+        <strong>{{ log.level }}</strong> - {{ log.timestamp }}<br>
+        {{ log.message }}
+    </div>
+    {% endfor %}
+</body>
+</html>

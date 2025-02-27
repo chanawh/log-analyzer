@@ -1,0 +1,22 @@
+[
+    {
+        "timestamp": "2025-02-27 14:35:10",
+        "level": "INFO",
+        "message": "Server started successfully."
+    },
+    {
+        "timestamp": "2025-02-27 14:36:12",
+        "level": "ERROR",
+        "message": "Failed to connect to database."
+    },
+    {
+        "timestamp": "2025-02-27 14:37:05",
+        "level": "INFO",
+        "message": "User logged in."
+    },
+    {
+        "timestamp": "2025-02-27 14:38:30",
+        "level": "ERROR",
+        "message": "Unable to locate configuration file."
+    }
+]
